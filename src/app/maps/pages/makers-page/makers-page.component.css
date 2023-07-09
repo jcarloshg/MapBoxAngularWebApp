@@ -1,0 +1,25 @@
+#map {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+
+.list-group {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+ 
+.list-group>p {
+  background-color: grey;
+  padding: 6px;
+  border-radius: 3px;
+  color: black;
+}
+
+button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}

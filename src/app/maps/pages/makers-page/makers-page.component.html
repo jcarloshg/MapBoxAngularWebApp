@@ -1,1 +1,14 @@
-<p>makers-page works!</p>
+<div #map id="map"></div>
+
+<div class="list-group" *ngIf="markers.length > 0">
+  <ul>
+    <li *ngFor="let markerAndMarker of markers; let i = index" class="list-group-item"
+      [ngStyle]="{backgroundColor: markerAndMarker.color}" (dblclick)="deleteMarker(i)"
+      (click)="flyTo(markerAndMarker.marker)">
+      Marker {{i + 1 }}
+    </li>
+  </ul>
+  <p>Double click to delete marker *</p>
+</div>
+
+<button (click)="createMarker()" class="btn btn-primary"> + Agregar marker</button>
