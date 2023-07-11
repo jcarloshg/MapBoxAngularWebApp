@@ -8,6 +8,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Check `scripts` from `package.json`
 
 
+## This project have 🪖
+- StandAlone like pages
+- StandAlone individual like component
+- StandAlone individual component import into other StandAlone component
+- StandAlone component import into module
+
+
 ## You can do...
 
 - You can see the world in full screen ![Alt text](image.png)
